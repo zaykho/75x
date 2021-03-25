@@ -4,6 +4,10 @@ body{color: white; background-image:url(WOLF.jpg); background-attachment:fixed; 
 </style>
 <body onload="go()">
 <script>
+if(document.cookie.indexOf('kex=0') >= 0)
+    document.location.href = '../index.html';
+</script>
+<script>
 function print(){}
 
 var scriptCode = '';
@@ -32,11 +36,12 @@ function done()
 
 window.midExploit = function()
 {
-    preloadScripts(['755.js', '755jb.js', 'mira.js', 'restore.js', 'cod.js'], go);
+        preloadScripts(['755.js', '755jb.js', 'mira.js', 'restore.js', 'cod.js'], go);
 }
 
 window.postExploit = function()
 {
+    document.cookie = 'kex=0';
     setTimeout(function() //update the screen one last time...
     {
         eval.call(window, scriptCode);
