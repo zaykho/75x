@@ -1,6 +1,6 @@
 CACHE MANIFEST 
 # the wolf v4 
-# Wed 03/24/2021-22:57:55.95 
+# Thu 03/25/2021-20:59:29.68 
 
 
 CACHE: 
@@ -72,11 +72,6 @@ utils.js
 webrte.html
 webrte.js
 WOLF.jpg
-fixup.rop
-jb.c
-
-FALLBACK: 
-index.html 
 
 NETWORK: 
 * 
