@@ -1,11 +1,10 @@
 CACHE MANIFEST 
 # the wolf v4 
-# Fri 03/26/2021-17:07:18.97 
+# Sat 03/27/2021-19:48:22.98 
 
 
 CACHE: 
 
-1WOLF.jpg
 755.js
 755jb.js
 7xx
@@ -74,16 +73,7 @@ todex.js
 utils.js
 webrte.html
 webrte.js
-restore\755.js
-restore\755jb.js
-restore\cod.js
-restore\index.html
-restore\int64.js
-restore\mira.js
-restore\ps4.js
-restore\restore.js
-restore\utils.js
-restore\WOLF.jpg
+WOLF.jpg
 
 FALLBACK: 
 index.html 
