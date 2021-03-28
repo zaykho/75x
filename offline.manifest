@@ -1,14 +1,14 @@
 CACHE MANIFEST 
 # the wolf v4 
-# Sun 03/28/2021-17:53:36.83 
+# Sun 03/28/2021-19:18:34.90 
 
 
 CACHE: 
 
 755.js
 755jb.js
-7xx
 7xx.jpg
+7xx.png
 app2usb.html
 app2usb.js
 arabicguy100.html
@@ -37,7 +37,6 @@ goldhen755.js
 idu.html
 idu.js
 index.html
-int64.js
 kernelclock.html
 kernelclock.js
 lamance132.html
@@ -60,7 +59,6 @@ natIvecaller127.js
 natIvecaller132.html
 natIvecaller132.js
 netcat.html
-ps4.js
 ps4debug.html
 ps4debug.js
 renamer.html
@@ -70,10 +68,24 @@ restore.js
 Style.css
 todex.html
 todex.js
-utils.js
 webrte.html
 webrte.js
 WOLF.jpg
+restore\755.js
+restore\755jb.js
+restore\cod.js
+restore\index.html
+restore\int64.js
+restore\mira.js
+restore\ps4.js
+restore\restore.js
+restore\utils.js
+restore\WOLF.jpg
+src\fixup.rop
+src\jb.c
+webkit-7.50\external\int64.js
+webkit-7.50\external\ps4.js
+webkit-7.50\external\utils.js
 
 FALLBACK: 
 index.html 
